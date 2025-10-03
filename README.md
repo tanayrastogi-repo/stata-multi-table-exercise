@@ -1,6 +1,8 @@
 # Stata Multi-table exercise
 Repo analyse the patterns with which different companies bid on tenders in different cities.
 
+Static web-board is in the link - https://static.marimo.app/static/stata-multi-table-exercise-wubj
+
 ## Data
 Explore the data in the `data/` folder. There are three tables.
 
@@ -17,4 +19,4 @@ Explore the data in the `data/` folder. There are three tables.
 4. For each potential bidder in each potential tender (not only the ones that actually bid), create a dummy variable `local_experience`, which takes the value 1 if the bidder has bid in the same city as the tender *before* the year of the tender, and 0 otherwise. Cross-tabulate the frequency distribution of this variable with the year of the tender.
 
 ## Output files
-The code is built on Marimo notebook with UV backend. All the code is present in the `my_notebook.py` file. There is also a Jupyter-notebook `my_notebook.ipynb` in the repo.
+The code is built on Marimo notebook with UV backend. All the code is present in the `my_notebook.py` file. There is also a Jupyter-notebook `my_notebook.ipynb` in the repo. 
